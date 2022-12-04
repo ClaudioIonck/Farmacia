@@ -137,44 +137,68 @@
 
             <form>
 
-                <div class="row g-3">
 
-                    <div class="col">
-                        <label for="identificationNumber">CPF paciente</label>
-                        <input type="text" class="form-control" placeholder="<?php echo $userCPF ?>" aria-label="Username">
-                    </div>
+            <div class="row g-3" id="mainDiv"> 
 
-                    <div class="col">
-                        <label for="patientName">Nome</label>
-                        <input type="text" class="form-control" placeholder="<?php echo $firstName ?>" aria-label="FirstName">
-                    </div>
+                <!--<div class="divRemedy">-->
 
-                    <div class="col">
-                        <label for="patientName">Sobre nome</label>
-                        <input type="text" class="form-control" placeholder="<?php echo $secondName ?>" aria-label="Second Name">
-                    </div>
+                    <!--<div class="container" id="remedyListEnvolv">-->
 
-                </div>
+                        <!--<div id="remedyListContent">-->
 
 
+                        <div class="row g-3">
 
-                <div class="row g-3">
+                            <div class="col">
+                                <label for="identificationNumber">CPF paciente</label>
+                                <input type="text" class="form-control" placeholder="<?php echo $userCPF ?>" aria-label="Username">
+                            </div>
 
-                    <div class="col">
-                        <label for="identificationNumber">Genero</label>
-                        <input type="text" class="form-control" placeholder="<?php echo $userGenre ?>" aria-label="Username">
-                    </div>
+                            <div class="col">
+                                <label for="patientName">Nome</label>
+                                <input type="text" class="form-control" placeholder="<?php echo $firstName ?>" aria-label="FirstName">
+                            </div>
 
-                    <div class="col">
-                        <label for="identificationNumber">Nacionalidade</label>
-                        <input type="text" class="form-control" placeholder="<?php echo $userNationality ?>" aria-label="Username">
-                    </div>
+                            <div class="col">
+                                <label for="patientName">Sobre nome</label>
+                                <input type="text" class="form-control" placeholder="<?php echo $secondName ?>" aria-label="Second Name">
+                            </div>
 
-                    <button type="submit" class="btn btn-outline-primary">Solicitar Acesso</button>
+                        </div>
 
-                    <button type="submit" class="btn btn-outline-primary">outro</button>
 
-                </div>
+
+                        <div class="row g-3">
+
+                            <div class="col">
+                                <label for="identificationNumber">Genero</label>
+                                <input type="text" class="form-control" placeholder="<?php echo $userGenre ?>" aria-label="Username">
+                            </div>
+
+                            <div class="col">
+                                <label for="identificationNumber">Nacionalidade</label>
+                                <input type="text" class="form-control" placeholder="<?php echo $userNationality ?>" aria-label="Username">
+                            </div>
+
+                        </div>
+
+                        <div class="row g-3">
+ 
+                            <button type="submit" class="btn btn-outline-success">Iniciar tratamento</button>
+                                                        
+                            <button type="submit" class="btn btn-outline-primary">Solicitar Acesso</button>
+
+                            <br><br>
+
+                        </div>
+
+                        <!--</div>-->
+
+                    <!--</div>-->
+
+                <!--</div>-->    
+
+            </div>
 
             </form>
             

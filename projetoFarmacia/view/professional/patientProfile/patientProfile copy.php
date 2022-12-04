@@ -146,7 +146,7 @@
 
                         <div id="remedyListContent">
 
-                        <div class="row g-3"> 
+                        <div class="row g-3" id="mainDiv"> 
 
 
                         <div class="input-group mb-3">

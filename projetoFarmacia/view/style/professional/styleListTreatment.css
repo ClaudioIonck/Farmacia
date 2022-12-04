@@ -67,8 +67,8 @@
     margin-top: 20px; 
 
     border-width: 2px;
-    /*border-color: rgb(207, 207, 207);*/
-    /*border-style: solid;*/
+    border-color: rgb(207, 207, 207);
+    border-style: solid;
     display: inline-block;
     border-radius: 10px;
 
