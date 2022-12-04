@@ -1,0 +1,124 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body{
+    height: 100%;
+    background-color: #292a48;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.main{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.img{
+    width: 50vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    flex-direction: column;
+}
+
+.loginImage{
+    width: 70%;
+    height: 60%;
+    border-radius: 20px 0 0 20px;
+}
+
+.login{
+    width: 50vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+.card{
+    width: 60%;
+    height: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    padding: 30px 35px;
+    border-radius: 0 20px 20px 0;
+}
+
+.textfiled{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    margin: 10px 0px;
+}
+
+.textfiled > input{
+    width: 100%;
+    border: none;
+    border-radius: 10px;
+    padding: 15px;
+    background: #f0ffffde;
+    font-size: 12pt;
+}
+
+.textfiled > label{
+    margin-bottom: 10px;
+}
+
+.miniLine{
+    width: 100%;
+    display: flex;
+    flex-direction: line;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 11pt;
+
+}
+
+.btnLogin{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding: 16px 0px;
+    margin: 25px 0;
+    border: none;
+    border-radius: 8px;
+    outline: none;
+    text-transform: uppercase;
+    font-weight: 800;
+    letter-spacing: 3px;
+}
+
+.semConta{
+    width: 100%;
+    display: flex;
+    flex-direction: line;
+    align-items: center;
+    justify-content: center;
+}
+
+.semConta > p{
+    margin: 0;
+}
+
+
+#trigger{
+
+    display: block;
+
+}

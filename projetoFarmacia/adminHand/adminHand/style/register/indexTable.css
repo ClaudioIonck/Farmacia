@@ -1,0 +1,66 @@
+
+
+    /*----------TABLE Production Step-----------*/
+
+    .tableActionID{
+
+        width: 110px;
+        
+    }
+
+    .tableClientID {
+
+        width: 110px;
+
+    }
+
+    .tableClientName{
+
+        width: 380px;
+
+        text-align: left;
+
+        padding-left: 5px;
+
+    }
+
+    .tablePlanGrade{
+
+        width: 150px;
+
+        padding-left: 5px;
+
+    }
+
+    .tableCollaboratorResponsible{
+
+        width: 220px;
+
+    }
+
+    .tableDataBaseName{
+
+        width: 220px;
+
+    }
+
+    .tableActionRealized{
+
+        width: 220px;
+
+    }
+
+    .tableLogDate{
+
+        width: 100px;
+
+    }
+
+    .tableClientDataBasePassword{
+
+        width: 220px;
+
+    }
+
+
+

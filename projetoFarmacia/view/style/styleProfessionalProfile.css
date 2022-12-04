@@ -1,0 +1,141 @@
+:root {
+
+    --fontSizeLabel: 16px;
+    --fontSizeInput: 14px;
+
+    --fontSizeLabelList: 12px;
+    --fontSizeInputList: 12px;
+    
+    --principalColor: #550CF2;
+    --principalColorHover: #4807d4;
+    --principalColorBright: #621cf8;
+
+}
+
+* {
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#navBar {
+    background-color: tomato;
+    height: 135px;
+}
+
+#mainBg {
+    background-color: var(--principalColor);
+    height: 600px;
+}
+
+#main {
+    width: 1250px;
+    height: 100%;
+}
+
+#titleCPF {
+    color: white;
+    padding-top: 20px;
+}
+
+#divBusca {
+    margin-top: 200px;
+    /*align-items: center;*/
+}
+
+#mainDiv{
+
+    background-color: rgb(255, 255, 255);
+
+    width: 100%;
+    padding: 10px;
+    margin: 0;
+    margin-top: 20px; 
+
+    border-width: 2px;
+    border-color: rgb(207, 207, 207);
+    border-style: solid;
+    display: inline-block;
+    border-radius: 10px;
+
+    align-items: center;
+    
+}
+
+#buttonGiant{
+
+    background-color: var(--principalColor);
+
+    border: none;
+
+    width: 1200px;
+
+    padding: 10px;
+
+    margin-top: 20px;
+    margin-bottom: 30px;
+
+    transition: 0.3s;   
+
+}
+
+        #buttonGiant:hover{
+
+            background-color: var(--principalColorHover);
+
+            transition: 0.3s;
+
+            box-shadow: 1px 2px 15px 0.1px var(--principalColorBright);
+
+        }
+
+
+
+#cpfInput {
+    width: 90%;
+    padding: 0;
+    margin: 0;
+    /*background-color: blue;*/
+    align-items: center;
+}
+
+#cpfInsert {
+    width: 100%;
+    padding: 15px;
+    font-size: 26px;
+}
+
+#iconDiv {
+    /*background-color: aquamarine;*/
+    height: 102px;
+    width: 100px;
+    padding: 8px;
+    margin: 010;
+    align-items: center;
+}
+
+#buttonSearch {
+    height: 70px;
+    width: 70px
+}
+
+
+#mainDiv label{
+
+    font-size: var(--fontSizeLabel);    
+    font-weight: bold;  
+
+}
+
+#mainDiv input{
+
+    font-size: var(--fontSizeInput);
+
+}
+
+#mainDiv select{
+
+    font-size: var(--fontSizeInput);
+
+}

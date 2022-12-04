@@ -1,0 +1,256 @@
+:root{
+
+    --fontSizeLabel: 16px;
+    --fontSizeInput: 14px;
+
+    --fontSizeLabelList: 12px;
+    --fontSizeInputList: 12px;
+
+    --principalColor: #550CF2;
+
+    --smoothBackground1: #F6F5F5;
+
+    --borderColor: #0000;
+
+
+}
+
+
+*{
+
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+
+
+}
+
+
+#navBar{
+
+    background-color:tomato;
+
+    height: 135px;
+
+}
+
+#mainBg{
+
+    background-color: var(--principalColor);
+    
+    height: 600px;
+   
+}
+
+#main{
+    
+    width: 1250px;
+    height: 100%;
+
+}
+
+#titleCPF{
+
+    color: white;
+
+    padding-top: 20px;
+}
+
+#mainDiv{
+
+    background-color: rgb(255, 255, 255);
+
+    width: 100%;
+    padding: 10px;
+    margin: 0;
+    margin-top: 20px; 
+
+    border-width: 2px;
+    border-color: rgb(207, 207, 207);
+    border-style: solid;
+    display: inline-block;
+    border-radius: 10px;
+
+    align-items: center;
+    
+}
+
+#nameInput{
+
+    width: 97%;
+    
+    padding: 8px;
+    margin: 0;
+
+    align-items: center;
+
+}
+
+#nameInsert{
+
+    width: 100%;
+    padding: 5px;
+    font-size: 15px;
+
+}
+
+#iconDiv{
+
+    height: 102px;
+    width: 100px;
+    padding: 8px;
+    margin: 010;
+
+
+    align-items: center;
+
+}
+
+
+.divBusca{
+    color: black;
+    border-radius: 10px;
+}
+
+#datepicker{
+    padding-top: 20px;
+    width: 10%;
+    padding: 0;
+    margin: 0;
+}
+
+#data{
+    width: 250px;
+    margin-left: 10px;
+
+}
+
+
+
+#testt{
+    padding-top: 20px;
+}
+
+.input-group{
+    width: 615px;
+    margin-left: 0px;
+
+
+
+}
+
+
+
+#textPrimary{
+    width: 500px;
+}
+
+#textSecondary{
+    width: 250px;
+}
+
+
+
+
+#class1{
+    width: 550px;
+}
+
+#class2{
+    width: 250px;
+}
+
+
+
+
+#buttonGiant{
+    width: 1000px;
+
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+}
+
+#divRemedios{
+    margin: 10px;
+}
+
+#arrumar{
+    margin-top: 5px;
+}
+
+
+
+#remedyListEnvolv {
+
+    background-color: white;
+    
+    border: 1px solid rgba(146, 145, 145, 0);
+
+    border-radius: 5px;
+
+    height: 400px;
+
+    padding: 10px;
+
+}
+
+
+#remedyListContent{
+
+    background-color: white;
+
+    width: 100%;
+
+    border-radius: 5px;
+
+    padding: 10px;
+
+    max-height: 400px;
+    overflow-x: hidden;
+    
+
+}
+
+
+#mainDiv label{
+
+    font-size: var(--fontSizeLabel);
+    text-decoration: solid;
+
+}
+
+#mainDiv input{
+
+    font-size: var(--fontSizeInput);
+
+}
+
+table td{
+
+    font-size: 14px;
+
+}
+
+#remedyListContent label{
+
+    font-size: var(--fontSizeLabelList);
+
+}
+
+#remedyListContent input{
+
+    font-size: var(--fontSizeInputList);
+
+}
+
+#treeButtons {
+    padding-left: 20px;
+}
+
+.row-2{
+    margin: 10px;
+}

@@ -1,0 +1,153 @@
+    :root{
+
+        --backgroundColor: white;
+
+
+        --contrastColorSmooth: #D9D9D9 ;
+        --contrastColorSmoothHover: ;
+
+        --contrastColorHard: #8E8E93 ;
+        --contrastColorHardHover: ;
+
+
+        --fontColor: #333333 ;
+        --fontColorHover: #616161;
+        --fontColorOffBackground: white ;
+        --fontColorOffContrast: #D9D9D9 ;
+
+        --borderColorSmooth: #cccccc;
+
+
+        --positiveColor: #05A64E;
+        --positiveColorHover: ;
+        
+        --negativeColor: #F37C7C ;
+        --negativeColorHover: #e76767 ;
+
+        --neutralColor: #009EC8 ;
+        --neutralColorHover: ;
+
+
+
+    }
+
+    *{
+
+        margin: 0 auto;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: Arial, Helvetica, sans-serif;
+
+    }
+
+
+    body{
+
+        background-color: var(--contrastColorSmooth);
+
+    }
+
+
+    .divTable{
+
+        background-color: var(--contrastColorSmooth);
+
+        padding: 20px;
+    }
+
+    .form-group{
+
+        background-color: var(--fontColorOffContrast);
+
+        padding: 20px;
+        border-radius: 5px;
+
+        width: 170vh;
+    }
+
+
+    .form-inline{
+
+        background-color: var(--fontColorOffContrast);
+
+        display: inline;
+    }
+
+    
+
+    .table-control {
+
+        background-color: var(--fontColorOffContrast);
+
+        padding-top: 20px;
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-bottom: 20px;
+
+        border: 1px solid var(--backgroundColor);
+        border-radius: 5px;
+
+        max-height: 350px;
+        overflow-x: hidden;
+
+        width: 170vh;
+
+    }
+
+    .table1{
+
+        background-color: none;
+
+        display:inline-block;
+
+        color: var(--fontColor);
+
+        border-radius: 5px;
+        width: 100%;
+
+        text-align: center;
+
+        max-height: 720px;
+        overflow-x: hidden;
+
+    }
+
+
+    .headList th{
+
+        border: 2px solid var(--backgroundColor);
+        border-radius: 6px;
+        
+        padding: 10px;
+
+        font-size: 14px;
+
+        cursor: default;
+        
+    }
+        
+    .bodyList tr {
+
+        border-radius: 6px;
+
+        font-size: 12px;
+        height: 40px;
+
+    }
+
+            .bodyList tr:hover {
+
+                background-color: #f1f1f1;
+
+                transition: 0.2s;
+
+                cursor: default;
+
+            }
+
+
+    .bodyList td {
+
+        border: 2px solid var(--backgroundColor);
+
+    }

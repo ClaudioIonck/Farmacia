@@ -1,0 +1,87 @@
+:root {
+    --principalColor: #9305F2;
+    --principalColorHover: #bc5afd;
+}
+
+.theNav {
+    padding: 0;
+    padding-left: 13%;
+    padding-right: 13%;
+}
+
+#navigator {
+    /*background-color:yellowgreen;*/
+    height: 135px;
+    width: 85%;
+    align-items: center;
+}
+
+#logo {
+    /*background-color: yellow;*/
+    width: 100%;
+    padding-right: 400px;
+    border-radius: 0;
+}
+
+.nav-item {
+    /*background-color: violet;*/
+}
+
+.nav-link {
+    color: black;
+    transition: 0.3s;
+}
+
+.nav-link:hover {
+    color: var(--principalColor);
+    transition: 0.3s;
+}
+
+#nav-link-active {
+    color: var(--principalColor);
+    transition: 0.3s;
+    text-decoration: underline;
+}
+
+#nav-link-active:hover {
+    color: var(--principalColorHover);
+    transition: 0.3s;
+}
+
+#smallButtonSearchCPF {
+    color: var(--principalColor);
+    border: 1px solid var(--principalColor);
+    transition: 0.6s;
+    margin-left: 50px;
+}
+
+#smallButtonSearchCPF:hover {
+    background-color: var(--principalColor);
+    color: white;
+    transition: 0.6s;
+}
+
+#userName {
+    background-color: aqua;
+    transition: 0.3s;
+    width: 100%;
+    border-radius: 0;
+}
+
+#iconUser {
+    fill: var(--principalColor);
+    transition: 0.3s;
+    width: 38px;
+    height: 38px;
+    margin-left: 80px;
+}
+
+#iconUser:hover {
+    fill: var(--principalColorHover);
+    transition: 0.3s;
+}
+
+.mainDiv {
+    background-color: var(--principalColor);
+    height: 600px;
+}

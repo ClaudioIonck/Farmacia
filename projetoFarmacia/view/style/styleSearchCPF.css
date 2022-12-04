@@ -1,0 +1,126 @@
+:root{
+
+    --fontSizeLabel: 16px;
+    --fontSizeInput: 14px;
+
+    --fontSizeLabelList: 12px;
+    --fontSizeInputList: 12px;
+    
+    --principalColor: #550CF2;
+    --principalColorHover: #4807d4;
+    --principalColorBright: #621cf8;
+
+}
+
+
+
+
+*{
+
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+
+
+}
+
+
+#navBar{
+
+    background-color:tomato;
+
+    height: 135px;
+
+}
+
+#mainBg{
+
+    background-color: #550CF2;
+    
+    height: 600px;
+   
+}
+
+#main{
+    
+    width: 1250px;
+    height: 100%;
+
+}
+
+#titleCPF{
+
+    color: white;
+
+    padding-top: 20px;
+}
+
+#divBusca{
+
+    margin-top: 200px;
+
+    /*align-items: center;*/    
+
+}
+
+#cpfDiv{
+
+    width: 100%;
+    padding: 0;
+    margin: 0;
+
+
+    align-items: center;
+    
+}
+
+
+#cpfInput{
+
+    width: 90%;
+    
+    padding: 0;
+    margin: 0;
+
+
+    /*background-color: blue;*/
+
+    align-items: center;
+
+}
+
+#cpfInsert{
+
+    width: 100%;
+    padding: 15px;
+    font-size: 26px;
+
+}
+
+#iconDiv{
+
+    /*background-color: aquamarine;*/
+
+    height: 102px;
+    width: 100px;
+    padding: 8px;
+    margin: 010;
+
+
+    align-items: center;
+
+}
+
+#buttonSearch{
+
+    height: 70px;
+    width: 70px
+
+}
+
+#iconSearch{
+
+    fill: #550CF2;
+
+}

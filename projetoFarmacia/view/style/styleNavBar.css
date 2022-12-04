@@ -1,0 +1,172 @@
+:root{
+
+    --fontSizeLabel: 16px;
+    --fontSizeInput: 14px;
+
+    --fontSizeLabelList: 12px;
+    --fontSizeInputList: 12px;
+    
+    --principalColor: #550CF2;
+    --principalColorHover: #4807d4;
+    --principalColorBright: #621cf8;
+    --principalColorSmooth: #ac85ff;
+    --principalColorMinimal: #dfd1ff;
+
+}
+
+
+.theNav{
+
+    padding: 0;
+    padding-left: 13%;
+    padding-right: 13%;
+
+}
+
+
+#navigator{
+
+    /*background-color:yellowgreen;*/
+
+    height: 135px;
+
+    width: 85%;
+
+    align-items: center;
+
+}
+
+#logo{
+
+    /*background-color: yellow;*/
+
+    width: 100%;
+    padding-right: 400px;
+
+    border-radius: 0;
+
+}
+
+
+
+
+.nav-link{
+
+    color: black;
+    transition: 0.3s;
+
+}
+
+        .nav-link:hover{
+
+            color: var(--principalColor);
+            transition: 0.3s;
+
+        }
+
+#nav-link-active{
+
+    color: var(--principalColor);
+    transition: 0.3s;
+
+    text-decoration: underline;
+
+}   
+
+        #nav-link-active:hover{
+
+            color: var(--principalColorHover);
+            transition: 0.3s;
+
+        }
+
+    
+#smallButtonSearchCPF{
+
+    background-color: white;
+    transition: 0.15s;
+    color: var(--principalColor);
+    border: 1px solid var(--principalColor);
+
+    
+
+    margin-left: 50px;
+
+}
+
+        #smallButtonSearchCPF:hover{
+
+            background-color: white;
+            transition: 0.1s; 
+            color: var(--principalColor);
+
+            transition: 0.3s;
+            box-shadow: 0.5px 2px 5px 0.5px var(--principalColorSmooth); 
+
+        }
+
+#smallButtonSearchCPFSelected{
+
+    transition: 0.3s; 
+    /*background-color: var(--principalColorBright);*/
+    color: var(--principalColorHover); 
+    box-shadow: 0.5px 2px 5px 1.0px #ac85ff; 
+    border: 1px solid var(--principalColorHover);
+
+    margin-left: 50px;
+
+
+}
+
+
+        #smallButtonSearchCPFSelected:hover{
+
+            background-color: white;
+            transition: 0.1s; 
+            color: var(--principalColor);
+
+            transition: 0.3s;
+            box-shadow: 0.5px 2px 5px 0.5px var(--principalColorMinimal); 
+
+
+        }
+
+
+#showUserName{
+
+    /*background-color: aqua;*/
+
+    transition: 0.3s;
+
+    width: 100%;
+
+    border-radius: 0;
+
+    text-align: right;
+
+
+    font-size: 12px;
+
+}
+
+
+
+#iconUser{
+
+    fill: var(--principalColor);
+    transition: 0.3s;
+
+    width: 38px; 
+    height: 38px;
+
+}
+
+        #iconUser:hover{
+
+            fill: var(--principalColorHover);
+
+            transition: 0.3s;
+
+        }
+
+

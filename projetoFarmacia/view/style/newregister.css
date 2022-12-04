@@ -1,0 +1,214 @@
+:root{
+
+    --principalColor: #9305f2;
+
+}
+
+
+
+*{
+
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+
+
+}
+
+
+#navBar{
+
+    background-color:tomato;
+
+    height: 135px;
+
+}
+
+#mainBg{
+
+    background-color: #9305F2;
+    
+    height: 600px;
+   
+}
+
+#main{
+    
+    width: 1250px;
+    height: 100%;
+
+}
+
+#titleCPF{
+
+    color: white;
+
+    padding-top: 20px;
+}
+
+#divBusca{
+
+    margin-top: 50px;
+
+    /*align-items: center;*/    
+
+}
+
+#cpfDiv{
+
+    background-color: rgb(255, 255, 255);
+
+    width: 100%;
+    padding: 0;
+    margin: 0;
+
+    /*border aqui*/
+
+    border-width: 2px;
+    border-color: rgb(207, 207, 207);
+    border-style: solid;
+    display: inline-block;
+    border-radius: 20px;
+
+    align-items: center;
+    
+}
+
+    /*div caixa de texto*/
+#nameInput{
+
+    width: 97%;
+    
+    padding: 8px;
+    margin: 0;
+
+    align-items: center;
+
+}
+    /*caixa de texto*/
+#nameInsert{
+
+    width: 100%;
+    padding: 5px;
+    font-size: 15px;
+
+}
+
+#iconDiv{
+
+    /*background-color: aquamarine;*/
+
+    height: 102px;
+    width: 100px;
+    padding: 8px;
+    margin: 010;
+
+
+    align-items: center;
+
+}
+
+#buttonSearch{
+
+    height: 70px;
+    width: 70px
+
+}
+    /*test*/
+.divBusca{
+    color: black;
+    border-radius: 10px;
+}
+
+#datepicker{
+    padding-top: 20px;
+    width: 10%;
+    padding: 0;
+    margin: 0;
+}
+
+#data{
+    width: 250px;
+    margin-left: 10px;
+
+}
+
+#h3{
+    width: 285px;
+    margin: 0px;
+}
+
+#testt{
+    padding-top: 20px;
+}
+
+.input-group{
+    width: 615px;
+    margin-left: 0px;
+
+
+
+}
+
+
+    /*divs remedio*/
+
+#textPrimary{
+    width: 500px;
+}
+
+#textSecondary{
+    width: 250px;
+}
+
+#buttonPlus{
+    width: 40px;
+
+}
+
+    /*divs remedio*/
+
+    /*divs remedio text*/
+
+#class1{
+    width: 550px;
+}
+
+#class2{
+    width: 250px;
+}
+
+#classButton{
+    width: 40px;
+
+}
+
+    /*divs remedio text*/
+
+#buttonGiant{
+    width: 800px;
+
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+}
+
+#divRemedios{
+    margin: 10px;
+}
+
+#arrumar{
+    margin-top: 5px;
+}
+
+#borderRemedios{
+    border-width: 2px;
+    border-color: rgb(207, 207, 207);
+    border-style: solid;
+
+    border-radius: 20px;
+
+}
