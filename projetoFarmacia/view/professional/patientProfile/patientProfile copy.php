@@ -137,46 +137,63 @@
 
             <form>
 
-                <div class="row g-3">
+            <div class="row g-3" id="mainDiv">                     
 
-                    <div class="col">
-                        <label for="identificationNumber">CPF paciente</label>
-                        <input type="text" class="form-control" placeholder="<?php echo $userCPF ?>" aria-label="Username">
-                    </div>
 
-                    <div class="col">
-                        <label for="patientName">Nome</label>
-                        <input type="text" class="form-control" placeholder="<?php echo $firstName ?>" aria-label="FirstName">
-                    </div>
+                <div class="divRemedy">
 
-                    <div class="col">
-                        <label for="patientName">Sobre nome</label>
-                        <input type="text" class="form-control" placeholder="<?php echo $secondName ?>" aria-label="Second Name">
-                    </div>
+                    <div class="container" id="remedyListEnvolv"> <!--div center-->
+
+                        <div id="remedyListContent">
+
+                        <div class="row g-3"> 
+
+
+                        <div class="input-group mb-3">
+
+                            <label for="professionalFirstName">Nome</label>
+                            <input type="text" class="form-control" placeholder="<?php echo $firstName ?>" aria-label="FirstName">
+                            <input type="text" class="form-control" placeholder="<?php echo $secondName ?>" aria-label="Second Name">
+                            <input type="text" class="form-control" placeholder="<?php echo $userCPF ?>" aria-label="Username">
+
+                            <input type="hidden" id="cpfInsert" name="cpfInsert"  value="<?php echo $userCPF; ?>">
+
+                        </div>
+
+                        <br>
+
+                        <div class="input-group mb-3">
+
+                            <input type="text" class="form-control" placeholder="<?php echo $userGenre ?>" aria-label="Username">
+                            <input type="text" class="form-control" placeholder="<?php echo $userNationality ?>" aria-label="Username">
+
+                        </div>
+
+                        <button type="submit" class="btn btn-outline-primary">Solicitar Acesso</button>
+
+
+                        </div>
+                        </div>
+
+
+
+
+                        </div>
+
+
+                        </div>
+                            
+                        </div>
+
+                    </div> 
 
                 </div>
 
 
 
-                <div class="row g-3">
+            </div>    
 
-                    <div class="col">
-                        <label for="identificationNumber">Genero</label>
-                        <input type="text" class="form-control" placeholder="<?php echo $userGenre ?>" aria-label="Username">
-                    </div>
-
-                    <div class="col">
-                        <label for="identificationNumber">Nacionalidade</label>
-                        <input type="text" class="form-control" placeholder="<?php echo $userNationality ?>" aria-label="Username">
-                    </div>
-
-                    <button type="submit" class="btn btn-outline-primary">Solicitar Acesso</button>
-
-                    <button type="submit" class="btn btn-outline-primary">outro</button>
-
-                </div>
-
-            </form>
+    </form>
             
     <footer>
 
